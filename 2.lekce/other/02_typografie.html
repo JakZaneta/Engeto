@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Typografie</title>
+    <style>
+      p {
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h1>Zarovnání textu - pomocí text-align</h1>
+      <p style="text-align: center">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce aliquam
+        vestibulum ipsum. Aenean vel massa quis mauris vehicula lacinia. Itaque
+        earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
+        voluptatibus maiores alias consequatur aut perferendis doloribus
+        asperiores repellat. Donec iaculis gravida nulla. Donec quis nibh at
+        felis congue commodo
+      </p>
+      <p style="text-align: justify">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce aliquam
+        vestibulum ipsum. Aenean vel massa quis mauris vehicula lacinia. Itaque
+        earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
+        voluptatibus maiores alias consequatur aut perferendis doloribus
+        asperiores repellat. Donec iaculis gravida nulla. Donec quis nibh at
+        felis congue commodo
+      </p>
+      <p style="text-align: left">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce aliquam
+        vestibulum ipsum. Aenean vel massa quis mauris vehicula lacinia. Itaque
+        earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
+        voluptatibus maiores alias consequatur aut perferendis doloribus
+        asperiores repellat. Donec iaculis gravida nulla. Donec quis nibh at
+        felis congue commodo
+      </p>
+    </section>
+
+    <section>
+      <h1>Tučné písmo, kurzíva a podtržené písmo</h1>
+      <p style="font-style: italic">kurzíva</p>
+      <p style="font-weight: bolder">tučné písmo</p>
+      <p style="font-weight: 800">tučné písmo</p>
+      <p style="text-decoration: underline">podtržené písmo</p>
+      <p style="text-decoration: underline rgb(114, 138, 175)">
+        podtržené písmo
+      </p>
+    </section>
+
+    <section>
+      <h1>Velikost textu</h1>
+      <p style="font-size: 10px">malé písmo</p>
+      <p style="font-size: 50px">Větší písmo</p>
+      <h3>význam procent</h3>
+      <div class="parent">
+        Rodičovský text
+        <div class="potomek" style="font-size: 50%">Text potomka</div>
+      </div>
+    </section>
+
+    <section>
+      <h1>Výška řádku</h1>
+      <p style="width: 200px">
+        Klasická výška řádku: Lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit.
+      </p>
+      <p style="width: 200px; line-height: 50px">
+        50px jako výška řádku: Lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit.
+      </p>
+      <p style="width: 200px; line-height: 5px">
+        Příliš malá výška řádku: Lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit.
+      </p>
+    </section>
+
+    <section>
+      <h1>
+        <span style="text-transform: uppercase">upperace </span>
+        <span style="text-transform: lowercase">LOWERCASE</span>
+      </h1>
+    </section>
+
+    <section>
+      <h1>Rodina písma</h1>
+      <p class="sans-serif">
+        Sans serif: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+        Fusce aliquam vestibulum ipsum. Aenean vel massa quis mauris vehicula
+        lacinia. Itaque earum rerum hic tenetur a sapiente delectus.
+      </p>
+      <p class="serif">
+        Monospace: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+        Fusce aliquam vestibulum ipsum. Aenean vel massa quis mauris vehicula
+        lacinia. Itaque earum rerum hic tenetur a sapiente delectus.
+      </p>
+      <p class="kaligrafic">
+        Kaligrafic: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+        Fusce aliquam vestibulum ipsum. Aenean vel massa quis mauris vehicula
+        lacinia. Itaque earum rerum hic tenetur a sapiente delectus.
+      </p>
+
+      <h2>font family with google fonts</h2>
+      <p class="google-fonts">
+        Google font: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+        Fusce aliquam vestibulum ipsum. Aenean vel massa quis mauris vehicula
+        lacinia. Itaque earum rerum hic tenetur a sapiente delectus.
+      </p>
+    </section>
+  </body>
+</html>
