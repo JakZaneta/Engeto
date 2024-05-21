@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsivní Layout</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Můj responsivní web</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Domů</a></li>
+          <li><a href="#">O nás</a></li>
+          <li><a href="#">Článek 1</a></li>
+          <li><a href="#">Článek 2</a></li>
+          <li><a href="#">Formulář</a></li>
+          <li><a href="#">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="container">
+        <h2>Vítejte na našem webu!</h2>
+        <p>
+          Tento web je určen k demonstraci použití media query pro vytvoření
+          responsivního layoutu. Lorem, ipsum dolor sit amet consectetur
+          adipisicing elit. Assumenda cupiditate molestiae fuga, natus ipsam
+          nostrum alias debitis repudiandae molestias officia, illo totam
+          exercitationem animi praesentium optio perferendis vitae, ullam
+          corporis.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+          assumenda rerum corrupti sint hic unde ipsum reiciendis odio fugiat
+          earum? Corporis porro veritatis officiis, fugiat sequi exercitationem
+          labore commodi et?
+        </p>
+      </section>
+
+      <!-- Nová sekce - Galerie -->
+      <section class="container">
+        <h2>Naše galerie</h2>
+        <div class="gallery">
+          <div class="image">
+            <img src="image1.webp" alt="Image 1" />
+          </div>
+          <div class="image">
+            <img src="image1.webp" alt="Image 2" />
+          </div>
+          <div class="image">
+            <img src="image1.webp" alt="Image 2" />
+          </div>
+          <div class="image">
+            <img src="image1.webp" alt="Image 2" />
+          </div>
+          <div class="image">
+            <img src="image1.webp" alt="Image 2" />
+          </div>
+          <div class="image">
+            <img src="image1.webp" alt="Image 2" />
+          </div>
+          <div class="image">
+            <img src="image1.webp" alt="Image 2" />
+          </div>
+          <div class="image">
+            <img src="image1.webp" alt="Image 2" />
+          </div>
+          <div class="image">
+            <img src="image1.webp" alt="Image 2" />
+          </div>
+          <div class="image">
+            <img src="image1.webp" alt="Image 2" />
+          </div>
+          <div class="image">
+            <img src="image1.webp" alt="Image 2" />
+          </div>
+          <div class="image">
+            <img src="image1.webp" alt="Image 2" />
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-form">
+        <h2>Kontaktujte nás</h2>
+        <div>
+          <form action="#" method="POST">
+            <label for="name">Jméno:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Zpráva:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Odeslat</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Všechna práva vyhrazena.</p>
+    </footer>
+  </body>
+</html>
